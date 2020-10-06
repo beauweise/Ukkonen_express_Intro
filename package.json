@@ -1,0 +1,24 @@
+{
+  "name": "Ukkonen_express_Intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beauweise/Ukkonen_express_Intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beauweise/Ukkonen_express_Intro/issues"
+  },
+  "homepage": "https://github.com/beauweise/Ukkonen_express_Intro#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
