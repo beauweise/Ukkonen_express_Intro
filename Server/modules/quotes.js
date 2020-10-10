@@ -1,4 +1,3 @@
-const { builtinModules } = require("module");
 
 let quotesData = [
     { quote: 'I\'m not going to school just for the academics - I wanted to share ideas, to be around people who are passionate about learning.', author: 'Emma Watson' },
@@ -6,4 +5,8 @@ let quotesData = [
     { quote: 'Intelligence plus character-that is the goal of true education.', author: 'Martin Luther King, Jr.' }
 ];
 
-modules.exports = quotedata;
+let index = 0;
+
+module.exports = {
+    list: quotesData,
+};
